@@ -20,7 +20,8 @@
 
 ### 1.3. Formatting
 
-- [VS Code Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - formatting for Markdown
+- [Prettier](https://prettier.io/docs/en/install.html) - formatting for Markdown
+  - [VS Code Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - formatting for Markdown
 
 ### 1.4. Testing
 
@@ -85,12 +86,17 @@
 - [Hypermodern Python Chapter 5: Documentation](https://cjolowicz.github.io/posts/hypermodern-python-05-documentation/)
 - [Hypermodern Python Chapter 6: CI/CD](https://cjolowicz.github.io/posts/hypermodern-python-06-ci-cd/)
 - [How to use black, flake8, isort, and pre-commit framework to format Python codes](http://www.sefidian.com/2021/08/03/how-to-use-black-flake8-and-isort-to-format-python-codes/)
+- [AsyncIO Complete Walkthough - RealPython Tutorial](https://realpython.com/async-io-python/)
+- [Logging HOWTO - Python Docs](https://docs.python.org/3/howto/logging.html)
+- [Logging in Python](https://realpython.com/python-logging/)
 
 ### 4.2. Tools
 
 - ! [pyenv](https://github.com/pyenv/pyenv) - python version manager
 - [poetry](https://python-poetry.org/docs/#system-requirements) - python-specific dependency management and packaging
 - ! [miniconda](https://docs.conda.io/en/latest/miniconda.html) - package dependency management for any langauge
+- [asyncio](https://docs.python.org/3/library/asyncio.html) - write concurrent IO-bound network code using async/await syntax, use with Python asynchronous frameworks
+- [logging](https://docs.python.org/3/library/logging.html) - write logging messages correctly and concisely, part of Python's standard library
 
 ### 4.3. Formatting
 
