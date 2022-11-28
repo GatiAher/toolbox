@@ -10,6 +10,8 @@
 
 - [How to Set up an Apple Mac for Software Development](https://www.stuartellis.name/articles/mac-setup/) by Stuart Ellis
 - [macOS Setup Guide](https://sourabhbajaj.com/mac-setup/) by Sourabh Bajaj
+- [Zettelkasten](https://www.youtube.com/playlist?list=PLgtmMKe4spCM5YQa3tbbdloBQB5RFKb3Y) by Artem Kirsanov
+- [Zotero hacks: unlimited synced storage and its smooth use with rmarkdown](https://ikashnitsky.github.io/2019/zotero/) by ilya.kashnitsky
 
 ### 1.2. Tools
 
@@ -26,6 +28,17 @@
 ### 1.4. Testing
 
 - [pre-commit](https://pre-commit.com/) - multi-language package manager for pre-commit hooks
+
+### 1.5 Notes
+
+- [Obsidian]() + iPhone App + iCloud Sync
+  - [Admonition](https://github.com/valentine195/obsidian-admonition) - adds admonition block-styled content to Obsidian.md
+  - [Citations](https://github.com/hans/obsidian-citation-plugin) - Insert literature note references from Zotero Library
+- [Zotero](https://www.zotero.org/) + iPhone App + Zotero Account Sync
+
+  - [Firefox Contector](https://www.zotero.org/download/) - browser plugin
+  - [Zotero Better Bibtex](https://retorque.re/zotero-better-bibtex/) - faculties for generating citekeys
+  - [Zotfile](http://zotfile.com/ - manage attachments: automatically rename, move, and attach PDFs
 
 ## 2. Command-Line (Zsh)
 
@@ -119,3 +132,4 @@
 - [pytest](https://docs.pytest.org/en/7.1.x/) - testing framework
 - [nox](https://nox.thea.codes/en/stable/) - automates testing in multiple Python environments
   - [nox-poetry](https://github.com/cjolowicz/nox-poetry) - use poetry inside Nox sessions
+
