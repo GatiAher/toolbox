@@ -1,0 +1,15 @@
+name: m1mac_tf_env
+channels:
+  - apple
+  - conda-forge
+dependencies:
+  - python=3.10  ## specify desired version
+  - pip  ## recommended to install for base + each sub-env
+  - tensorflow-deps  ## TensorFlow arm64 dependencies
+  - ipykernel  ## needed to switch environments using Jupyter Notebook
+
+  ## PyPI packages
+  - pip:
+    - tensorflow-macos  ## TensorFlow but for M1
+    - tensorflow-metal  ## allows TensorFlow to use M1's GPU
+

@@ -102,15 +102,23 @@
 - [AsyncIO Complete Walkthough - RealPython Tutorial](https://realpython.com/async-io-python/)
 - [Logging HOWTO - Python Docs](https://docs.python.org/3/howto/logging.html)
 - [Logging in Python](https://realpython.com/python-logging/)
+- [How to set up Anaconda and Jupyter Notebook the right way](https://towardsdatascience.com/how-to-set-up-anaconda-and-jupyter-notebook-the-right-way-de3b7623ea4a)
+    - **Attention: You always need to run jupyter notebook in the base environment. Run `conda deactivate` to leave your current environment and return to the base one.**
 
 ### 4.2. Tools
 
-- ! [pyenv](https://github.com/pyenv/pyenv) - python version manager
-- [poetry](https://python-poetry.org/docs/#system-requirements) - python-specific dependency management and packaging
-- [mambaforge](https://mamba.readthedocs.io/en/latest/installation.html) - reimplementation of the conda package manager in C++, part of a bigger ecosystem to make scientific packaging more sustainabl
+- [mambaforge](https://mamba.readthedocs.io/en/latest/installation.html) - reimplementation of the conda package manager in C++, part of a bigger ecosystem to make scientific packaging more sustainable
   - [miniconda](https://docs.conda.io/en/latest/miniconda.html) - package dependency management for any langauge
+  - ! [pyenv](https://github.com/pyenv/pyenv) - python version manager
+  - [poetry](https://python-poetry.org/docs/#system-requirements) - python-specific dependency management and packaging
 - [asyncio](https://docs.python.org/3/library/asyncio.html) - write concurrent IO-bound network code using async/await syntax, use with Python asynchronous frameworks
 - [logging](https://docs.python.org/3/library/logging.html) - write logging messages correctly and concisely, part of Python's standard library
+
+- Initialize conda environment using `mamba env create -n m1mac_tf_env tf-metal-arm64.yaml`
+  - [What is the proper way to install TensorFlow on Apple M1 in 2022](https://stackoverflow.com/questions/72964800/what-is-the-proper-way-to-install-tensorflow-on-apple-m1-in-2022)
+  - `tensorflow-deps`: dependencies to run TensorFlow on arm64, downloaded from `-c apple`
+  - `tensorflow-macos`: TensorFlow does not officially support the Mac M1, so I have to use the `tensorflow-macos` package maintained by Apple.
+  - `tensorflow-metal`: To let TensorFlow leverage the GPU of the M1 Mac, Apple uses a specific plugin in Tensorflow to make the framework compatible with Metal, the graphics stack of MacOS.
 
 ### 4.3. Formatting
 
@@ -133,4 +141,3 @@
 - [pytest](https://docs.pytest.org/en/7.1.x/) - testing framework
 - [nox](https://nox.thea.codes/en/stable/) - automates testing in multiple Python environments
   - [nox-poetry](https://github.com/cjolowicz/nox-poetry) - use poetry inside Nox sessions
-
