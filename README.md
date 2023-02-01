@@ -107,7 +107,8 @@
 
 - ! [pyenv](https://github.com/pyenv/pyenv) - python version manager
 - [poetry](https://python-poetry.org/docs/#system-requirements) - python-specific dependency management and packaging
-- ! [miniconda](https://docs.conda.io/en/latest/miniconda.html) - package dependency management for any langauge
+- [mambaforge](https://mamba.readthedocs.io/en/latest/installation.html) - reimplementation of the conda package manager in C++, part of a bigger ecosystem to make scientific packaging more sustainabl
+  - [miniconda](https://docs.conda.io/en/latest/miniconda.html) - package dependency management for any langauge
 - [asyncio](https://docs.python.org/3/library/asyncio.html) - write concurrent IO-bound network code using async/await syntax, use with Python asynchronous frameworks
 - [logging](https://docs.python.org/3/library/logging.html) - write logging messages correctly and concisely, part of Python's standard library
 
